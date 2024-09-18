@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Tests">
+	<test name="Local Chrome Test">
+		<parameter name="executionType" value="local"/>
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="tests.ReservePilates"/>
+		</classes>
+	</test>
+</suite>
